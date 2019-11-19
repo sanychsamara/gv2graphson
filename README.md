@@ -72,5 +72,5 @@ g.V().has("name", "Order_N001").in().repeat(out()).until(hasLabel("physical")).v
 There are 2 other similar converters on GitHub. One is written on Perl and one on Haskel. 
 Neither of them offers attributes-to-label mappings.
 
-https://metacpan.org/pod/distribution/Graph-Easy/bin/graph-easy
-https://github.com/portnov/dot2graphml/blob/master/dot2graphml.hs
+* https://metacpan.org/pod/distribution/Graph-Easy/bin/graph-easy
+* https://github.com/portnov/dot2graphml/blob/master/dot2graphml.hs
