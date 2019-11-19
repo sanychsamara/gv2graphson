@@ -1,0 +1,178 @@
+digraph "test_graph"
+{
+
+node [
+class = "node"
+,fillcolor = "#e3e3e3",style = "filled"
+,width = "0.152778",height = "0.152778"
+,shape = "ellipse"
+,color = "#000000"
+,penwidth = "1"
+,"_vis_" = "label"
+];
+
+
+"N2" [
+pos = "-0.694444,-39.5833!"
+,width = "0.194444",height = "0.194444"
+,xlabel = "OrderItem_02"
+,fontname = "MS Shell Dlg 2"
+,fontsize = "11"
+]
+
+"N3" [
+pos = "-0.694444,-37.5!"
+,width = "0.194444",height = "0.194444"
+,shape = "rect"
+,xlabel = "Shelf_JBK9"
+,fontname = "MS Shell Dlg 2"
+,fontsize = "11"
+]
+
+"Copy1 of Copy1 of Copy2 of Copy1 of Copy2 of Copy1 of Copy5 of Copy2 of Copy1 of Copy1 of Copy1 of Copy2 of Copy1 of Copy4 of N10" [
+pos = "-3.47222,-39.5833!"
+,fillcolor = "#cccccc",style = "filled"
+,width = "0.194444",height = "0.194444"
+,xlabel = "OrderItem_01"
+,fontname = "MS Shell Dlg 2"
+,fontsize = "11"
+]
+
+"Copy1 of N1" [
+pos = "-3.47222,-35.7639!"
+,width = "0.194444",height = "0.194444"
+,shape = "rect"
+,xlabel = "UPS_Truck_AKU1640"
+,fontname = "MS Shell Dlg 2"
+,fontsize = "11"
+]
+
+"Copy2 of Copy1 of Copy1 of Copy2 of N2" [
+pos = "-2.08333,-38.1944!"
+,fillcolor = "#cccccc",style = "filled"
+,width = "0.194444",height = "0.194444"
+,shape = "rect"
+,xlabel = "Package_2"
+,fontname = "MS Shell Dlg 2"
+,fontsize = "11"
+]
+
+"Copy1 of Copy1 of Copy1 of Copy1 of Copy3 of Copy2 of Copy1 of Copy1 of Copy1 of Copy2 of Copy1 of Copy4 of N10" [
+pos = "-3.47222,-36.8056!"
+,fillcolor = "#cccccc",style = "filled"
+,width = "0.194444",height = "0.194444"
+,shape = "rect"
+,xlabel = "Shipment_1Z4536"
+,fontname = "MS Shell Dlg 2"
+,fontsize = "11"
+]
+
+"Copy2 of Copy1 of Copy1 of Copy3 of Copy2 of Copy1 of Copy1 of Copy1 of Copy2 of Copy1 of Copy4 of N10" [
+pos = "-4.86111,-38.1944!"
+,fillcolor = "#cccccc",style = "filled"
+,width = "0.194444",height = "0.194444"
+,shape = "rect"
+,xlabel = "Package_1"
+,fontname = "MS Shell Dlg 2"
+,fontsize = "11"
+]
+
+"N4" [
+pos = "-0.694444,-35.7639!"
+,width = "0.194444",height = "0.194444"
+,shape = "rect"
+,xlabel = "Warehouse_Seattle"
+,fontname = "MS Shell Dlg 2"
+,fontsize = "11"
+]
+
+"Copy2 of N1" [
+pos = "-2.08333,-40.9722!"
+,width = "0.194444",height = "0.194444"
+,xlabel = "Order_N001"
+,fontname = "MS Shell Dlg 2"
+,fontsize = "11"
+]
+
+
+
+edge [
+class = "edge"
+,weight = "1"
+,penwidth = "1"
+,"_vis_" = "label"
+,"color" = "#a0a0a4"
+,"style" = "solid"
+];
+
+
+"Copy1 of Copy1 of Copy1 of Copy1 of Copy3 of Copy2 of Copy1 of Copy1 of Copy1 of Copy2 of Copy1 of Copy4 of N10" -> "Copy1 of N1" [id = "E4"
+,fontname = "MS Shell Dlg 2"
+,fontsize = "11"
+,"color" = "#00cc00"
+];
+
+"Copy1 of Copy1 of Copy2 of Copy1 of Copy2 of Copy1 of Copy5 of Copy2 of Copy1 of Copy1 of Copy1 of Copy2 of Copy1 of Copy4 of N10" -> "Copy2 of N1" [id = "Copy1 of Copy3 of Copy1 of Copy2 of E4"
+,fontname = "MS Shell Dlg 2"
+,fontsize = "11"
+,"color" = "#cc9900"
+];
+
+"N3" -> "N4" [id = "E5"
+,weight = "1"
+,penwidth = "1"
+,fontname = "MS Shell Dlg 2"
+,fontsize = "11"
+,"color" = "#cc9900"
+];
+
+"N2" -> "N3" [id = "E6"
+,fontname = "MS Shell Dlg 2"
+,fontsize = "11"
+,"color" = "#00cc00"
+];
+
+"Copy2 of Copy1 of Copy1 of Copy3 of Copy2 of Copy1 of Copy1 of Copy1 of Copy2 of Copy1 of Copy4 of N10" -> "Copy1 of Copy1 of Copy1 of Copy1 of Copy3 of Copy2 of Copy1 of Copy1 of Copy1 of Copy2 of Copy1 of Copy4 of N10" [id = "Copy1 of E7"
+,weight = "1"
+,penwidth = "1"
+,fontname = "MS Shell Dlg 2"
+,fontsize = "11"
+,"color" = "#cc9900"
+,"style" = "solid"
+];
+
+"Copy1 of Copy1 of Copy2 of Copy1 of Copy2 of Copy1 of Copy5 of Copy2 of Copy1 of Copy1 of Copy1 of Copy2 of Copy1 of Copy4 of N10" -> "Copy2 of Copy1 of Copy1 of Copy3 of Copy2 of Copy1 of Copy1 of Copy1 of Copy2 of Copy1 of Copy4 of N10" [id = "E2"
+,weight = "1"
+,penwidth = "1"
+,xlabel = ""
+,fontname = "MS Shell Dlg 2"
+,fontsize = "11"
+,"color" = "#cc9900"
+];
+
+"N2" -> "Copy2 of N1" [id = "E1"
+,fontname = "MS Shell Dlg 2"
+,fontsize = "11"
+,"color" = "#cc9900"
+];
+
+"Copy1 of Copy1 of Copy2 of Copy1 of Copy2 of Copy1 of Copy5 of Copy2 of Copy1 of Copy1 of Copy1 of Copy2 of Copy1 of Copy4 of N10" -> "Copy2 of Copy1 of Copy1 of Copy2 of N2" [id = "E3"
+,weight = "1"
+,penwidth = "1"
+,xlabel = ""
+,fontname = "MS Shell Dlg 2"
+,fontsize = "11"
+,"color" = "#cc9900"
+];
+
+"Copy2 of Copy1 of Copy1 of Copy2 of N2" -> "Copy1 of Copy1 of Copy1 of Copy1 of Copy3 of Copy2 of Copy1 of Copy1 of Copy1 of Copy2 of Copy1 of Copy4 of N10" [id = "Copy1 of E8"
+,weight = "1"
+,penwidth = "1"
+,fontname = "MS Shell Dlg 2"
+,fontsize = "11"
+,"color" = "#cc9900"
+,"style" = "solid"
+];
+
+
+}

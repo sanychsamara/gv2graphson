@@ -1,0 +1,9 @@
+{"id": 0, "label": "logical", "properties": {"name": [{"id": 0, "value": "OrderItem_02"}]}, "outE": {"location": [{"id": 12, "inV": 1, "outV": 0}], "part_of": [{"id": 15, "inV": 8, "outV": 0}]}}
+{"id": 1, "label": "physical", "properties": {"name": [{"id": 1, "value": "Shelf_JBK9"}]}, "outE": {"part_of": [{"id": 11, "inV": 7, "outV": 1}]}, "inE": {"location": [{"id": 12, "inV": 1, "outV": 0}]}}
+{"id": 2, "label": "logical", "properties": {"name": [{"id": 2, "value": "OrderItem_01"}]}, "outE": {"part_of": [{"id": 10, "inV": 8, "outV": 2}, {"id": 14, "inV": 6, "outV": 2}, {"id": 16, "inV": 4, "outV": 2}]}}
+{"id": 3, "label": "physical", "properties": {"name": [{"id": 3, "value": "UPS_Truck_AKU1640"}]}, "inE": {"location": [{"id": 9, "inV": 3, "outV": 5}]}}
+{"id": 4, "label": "physical", "properties": {"name": [{"id": 4, "value": "Package_2"}]}, "inE": {"part_of": [{"id": 16, "inV": 4, "outV": 2}]}, "outE": {"part_of": [{"id": 17, "inV": 5, "outV": 4}]}}
+{"id": 5, "label": "physical", "properties": {"name": [{"id": 5, "value": "Shipment_1Z4536"}]}, "outE": {"location": [{"id": 9, "inV": 3, "outV": 5}]}, "inE": {"part_of": [{"id": 13, "inV": 5, "outV": 6}, {"id": 17, "inV": 5, "outV": 4}]}}
+{"id": 6, "label": "physical", "properties": {"name": [{"id": 6, "value": "Package_1"}]}, "outE": {"part_of": [{"id": 13, "inV": 5, "outV": 6}]}, "inE": {"part_of": [{"id": 14, "inV": 6, "outV": 2}]}}
+{"id": 7, "label": "physical", "properties": {"name": [{"id": 7, "value": "Warehouse_Seattle"}]}, "inE": {"part_of": [{"id": 11, "inV": 7, "outV": 1}]}}
+{"id": 8, "label": "logical", "properties": {"name": [{"id": 8, "value": "Order_N001"}]}, "inE": {"part_of": [{"id": 10, "inV": 8, "outV": 2}, {"id": 15, "inV": 8, "outV": 0}]}}
