@@ -158,18 +158,18 @@ def main(gv_filename):
         
         graphson_edge_label = get_graphson_edge_label(pydot_edge_attributes)
 
-        pydot_node_id_from = pydot_edge.get("points")[0]
-        pydot_node_id_to = pydot_edge.get("points")[1]
+        pydot_node_id_from = pydot_edge.get("points")[1]
+        pydot_node_id_to = pydot_edge.get("points")[0]
 
         # Need to find GraphSON newly generated integer IDs
         # because internal dictionary of nodes 'graphson_nodes' uses GraphSON IDs
         graphson_id_from = pydot_to_graphson_id_mappings[pydot_node_id_from]
         graphson_id_to = pydot_to_graphson_id_mappings[pydot_node_id_to]
 
-        # Out == from
-        # In == to
-        graphson_edge["outV"] = graphson_id_from
-        graphson_edge["inV"] = graphson_id_to
+        # In == from
+        # Out == to
+        graphson_edge["inV"] = graphson_id_from
+        graphson_edge["outV"] = graphson_id_to
 
         # from
         graphson_node_from = graphson_nodes[graphson_id_from]
