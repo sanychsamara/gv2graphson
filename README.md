@@ -53,7 +53,7 @@ gv2graphson.py -f test_graph.gv -c #cc9900=part_of -c #00cc00=location -n logica
 Output file "test_graph.json" gets created in the same folder as input file and has extension "json". To verify conversion launch Gremlin Console and try following.
 
 ```java
-Graph graph = TinkerGraph.open();
+graph = TinkerGraph.open();
 graph.io(IoCore.graphson()).readGraph("test_graph.json");
 
 g = graph.traversal()
